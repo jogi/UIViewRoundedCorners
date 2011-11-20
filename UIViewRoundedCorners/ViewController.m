@@ -3,12 +3,14 @@
 //  UIViewRoundedCorners
 //
 //  Created by Vashishtha Jogi on 11/20/11.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2011 Vashishtha Jogi. All rights reserved.
 //
 
 #import "ViewController.h"
+#import "UIView+RoundedCorners.h"
 
 @implementation ViewController
+@synthesize viewNone, viewTopLeft, viewTopRight, viewBottomLeft, viewBottomRight, viewAll, viewTopLeftRight;
 
 - (void)didReceiveMemoryWarning
 {
@@ -22,6 +24,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    [viewTopLeft setRoundedCorners:UIRectCornerTopLeft radius:10.0];
+    [viewTopRight setRoundedCorners:UIRectCornerTopRight radius:10.0];
+    [viewBottomLeft setRoundedCorners:UIRectCornerBottomLeft radius:10.0];
+    [viewBottomRight setRoundedCorners:UIRectCornerBottomRight radius:10.0];
+    [viewAll setRoundedCorners:UIRectCornerAllCorners radius:10.0];
+    [viewTopLeftRight setRoundedCorners:UIRectCornerTopLeft|UIRectCornerTopRight radius:10.0];
 }
 
 - (void)viewDidUnload
