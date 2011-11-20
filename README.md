@@ -5,6 +5,7 @@ This adds rounded corners to just the corners which you want rounded not all of 
 Usage
 ================
 Import the category first:
+
 `#import UIView+RoundedCorners.h`
 
 Use the following to round all corners:
