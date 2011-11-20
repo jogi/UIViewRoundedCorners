@@ -9,9 +9,11 @@ Import the category first:
 `#import UIView+RoundedCorners.h`
 
 Use the following to round all corners:
+
 `[myView setRoundedCorners:UIRectCornerAllCorners radius:10.0];`
 
 For Top Left and Top Right:
+
 `[myView setRoundedCorners:UIRectCornerTopLeft|UIRectCornerTopRight radius:10.0];`
 
 Here I have used the inbuild enum `UIRectCorner` for specifying the rounded corners. So its much simpler to implement.
