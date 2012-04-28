@@ -16,7 +16,7 @@ For Top Left and Top Right:
 
 `[myView setRoundedCorners:UIRectCornerTopLeft|UIRectCornerTopRight radius:10.0];`
 
-Here I have used the inbuild enum `UIRectCorner` for specifying the rounded corners. So its much simpler to implement.
+Here I have used the inbuilt enum `UIRectCorner` for specifying the rounded corners. So its much simpler to implement.
 
 Support
 ================
