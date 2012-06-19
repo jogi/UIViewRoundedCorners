@@ -1,6 +1,6 @@
 UIView+RoundedCorners category
 ================
-This adds rounded corners to just the corners which you want rounded not all of them unlike the new CALayer cornerRadius.
+This adds rounded corners to just the corners which you want rounded not all of them like the new `CALayer cornerRadius`.
 
 Usage
 ================
